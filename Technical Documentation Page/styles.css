@@ -3,3 +3,22 @@
 * {
   font-family: 'Open Sans' , sans-serif;
 }
+
+#navbar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    width: 100%;      /* Navbar takes full width of the screen */
+    height: auto;     /* Height adjusts automatically */
+    position: top; /* Becomes part of normal document flow */
+  }
+}
