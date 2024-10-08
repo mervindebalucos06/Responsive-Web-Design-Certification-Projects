@@ -1,3 +1,29 @@
 html {
-  font-family: Tahoma, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(Improve-Your-Coding-Skills.jpg);
+  color: white;
+  opacity: 70%;
+
+}
+
+#description {
+  font-style: italic;
+}
+
+#survey-form {
+  background-color: lightblue;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin: 3rem;
+}
+
+.header {
+  display: flex;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
