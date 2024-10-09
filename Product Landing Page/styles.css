@@ -23,6 +23,7 @@ header {
   top: 0;
   min-height: 75px;
   padding: 0px 20px;
+<<<<<<< HEAD
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -225,4 +226,31 @@ footer > span {
     display: block;
     unicode-bidi: isolate;
   }
+=======
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+}
+
+.logo > img {
+  width: 100%;
+  height:100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.logo {
+  width: 60vw;
+}
+
+nav {
+  font-weight: 400;
+  display: block;
+  unicode-bidi: isolate;
+>>>>>>> 3a290e3c070275b16edd0bbf6ea49c44fbfdc53e
 }
